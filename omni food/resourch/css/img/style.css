@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Kurale&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Open sans;
+}
+:root{
+  --bg:#0C141B;
+  --text: #f9f9f9;
+  --deepblue:#050A30 ;
+  --babyblue: #0C1C1C;
+  --hover: #ffa500;
+}
+body{
+  background: var(--bg);
+  color: var(--text);
+}
+#navigate{
+  width: 100%;
+    height: 10px;
+    position: relative;
+    background: var(--bg);
+    color: var(--text);
+    z-index: 10;
+}
+.navbx {
+  width: 100%;
+  position: fixed;
+  background: var(--deepblue);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+.navbx .logoBar{
+ position: absolute;
+ width: 10%;
+ height: 100%;
+ left: 40px;
+}
+.navbx .logoBar img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+i.fa-bars {
+  position: absolute;
+  right: 150px;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+ .listbar{
+ position: absolute;
+ left: 31%;
+ display: flex;
+ list-style: none;
+ width: 62%;
+}
+.navbx .listbar li{
+  margin: 10px 15px;
+}
+.navbx .listbar li a{
+  color: var(--text);
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  transition: all 0.7s;
+  position: relative;
+}
+.navbx .listbar li a:hover{
+  color: var(--hover);
+}
+.navbx .listbar li a::before{
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid var(--hover);
+  transition: all 0.7s;
+}
+.navbx .listbar li a:hover::before{
+  width: 100%;
+}
+
+.naviget-img-bx {
+  width: 100%;
+  position: relative;
+  top: 40px;
+  left: -5px;
+  
+}
+.naviget-img-bx.active{
+  display: block;
+}
+img.nvogaet-img {
+  width: 100%;
+  height: 91.9vh;
+  position: absolute;
+}
+
+.naviget-img-bx p {
+  position: absolute;
+  top: 200px;
+  left: 40%;
+  font-size: 22px;
+  font-family: 'Dancing Script';
+}
+
+.naviget-img-bx h1 {
+  position: absolute;
+  top: 230px;
+  left: 24%;
+  font-size: 70px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  text-transform: uppercase;
+}
+.naviget-img-bx h6 {
+  position: absolute;
+  top: 350px;
+  left: 30%;
+  width: 500px;
+  font-size: 18px;
+  text-align: justify;
+  font-family: 'Open Sans';
+  font-weight: lighter;
+}
+.img-content-div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -90px;
+}
+
+section#about {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: #041314;
+  left: -25px;
+  top: 640px;
+}
+
+.section-content {
+  width: 40%;
+  height: 60px;
+  margin: auto;
+  position: relative;
+  left: 20%;
+  top: 40px;
+}
+
+.section-content p {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--text);
+  font-family: 'Dancing Script';
+  margin: 6px;
+}
+
+.section-content h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 8px;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.section-div {
+  width: 30%;
+  height: 70%;
+  position: absolute;
+  top: 100px;
+ 
+}
+
+img.sectoon-about-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 40px;
+  left: 60px;
+  border: 0.7px solid gray;
+  border-radius: 6px;
+}
+.section-div-img {
+  width: 30%;
+  height: 70%;
+  position: absolute;
+  left: 64%;
+  top: 100px;
+}
+
+.section-div-text {
+  width: 30%;
+  height: 70%;
+  position: absolute;
+  left: 37%;
+  top: 140px;
+  background: transparent;
+  border: 0.5px solid #2c3342;
+  border-radius: 4px;
+  
+}
+.section-div-text:hover{
+  border: 2px solid #325168;
+}
+
+.section-div-text p:nth-child(1) {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Dancing Script';
+  color: var(--text);
+  opacity: 0.9;
+  position: relative;
+  top: 20px;
+}
+.nth {
+  font-size: 20px;
+  text-align: justify;
+  width: 250px;
+  margin: auto;
+  opacity: 0.8;
+  font-family: 'Cardo';
+  position: relative;
+  top: 55px;
+}
+
+.section-div-text h2 {
+  position: relative;
+  font-size: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--text);
+  position: relative;
+  top: 40px;
+}
+button.about-btn {
+  width: 100px;
+  height: 30px;
+  position: relative;
+  top: 70px;
+  left: 33%;
+  border: none;
+  border-radius: 6px;
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: var(--hover);
+  color: var(--deepblue);
+  transition: all 0.7s ;
+}
+ button.about-btn:hover{
+  background-color:var(--deepblue);
+  color: var(--hover);
+}
+section#shop {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: 930px;
+  background: #0C1818;
+  display: flex;
+  justify-content: space-between;
+}
+.shop-img {
+  width: 40%;
+  height: 100%;
+  position: relative;
+  left: 50px;
+
+}
+.shop-img img {
+  width: 100%;
+  height: 100%;
+}
+.shop-content {
+  width: 40%;
+  height: 100%;
+  right: 140px;
+  position: absolute;
+  top: 5px;
+}
+
+p.shop-txt {
+  font-size: 21px;
+  text-transform: uppercase;
+  font-family: 'Dancing Script';
+}
+
+h4.shoping-head {
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.shop-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 20px;
+  margin: 25px 0px;
+}
+
+.menulist-item {
+  width: 80%;
+}
+
+.menulist-item h6 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.menulist-item p {
+  font-size: 14px;
+  color: #5c5c5c;
+}
+
+p.price {
+  font-size: 18px;
+  color: orange;
+  font-weight: bold;
+}
+.width-arrow {
+  width: 180px;
+  height: 0.1px;
+  background: #89722d;
+  position: absolute;
+  right: 50px;
+  border-radius: 2px;
+}
+button#shop-btn {
+  width: 100px;
+  height: 35px;
+  border: none;
+  background: orange;
+  position: relative;
+  top: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.fa-location-arrow{
+  margin: 0 10px;
+  transform: rotate(45deg);
+  color: var(--hover);
+}

@@ -1,0 +1,347 @@
+
+@media only screen and (max-width:480px){
+    body {
+        width: 480px;
+    }
+    section#navigate {
+        width: 480px;
+        position: absolute;
+    }
+    
+    nav.navbx {
+        position: relative;
+        width: 100%;
+    }
+    
+    .navbx .logoBar {
+        position: relative;
+        left: 0px;
+    }
+    
+    i.fa-bars {
+        display: block !important;
+        position: absolute !important;
+        right: 20px !important;
+    }
+    
+    ul.listbar {
+        display: none;
+        line-height: 25px;
+        top: 50px;
+        left: 0;
+        background: black;
+        width: 99%;
+        height: 100vh;
+    }
+    .slide-item {
+        position: relative;
+        width: 100%;
+    }
+    
+    .slide-content {width: 100%;text-align: center;}
+    
+    .slide-content h1 {
+        font-size: 35px;
+    }
+    
+    .slide-content p {
+        font-size: 14px;
+    }
+    
+    .slide-content button {
+        width: 110px;
+        font-size: 15px;
+        height: 40px;
+    }
+    section#about {
+        position: relative;
+        width: 480px;
+        top: 0;
+        background: none;
+    }
+    
+    .section-content {
+        width: 100%;
+        text-align: center;
+        left: 30px;
+        top: 20px;
+    }
+    
+    .section-content p {
+        font-size: 14px;
+    }
+    
+    .section-content h4 {
+        font-size: 22px;
+    }
+    .section-div {
+        width: 100%;
+        top: 0;
+        position: relative;
+        left: -6px;
+    }
+    
+    img.sectoon-about-img {
+        position: relative;
+        width: 90%;
+        height: 97%;
+    }
+    
+    .section-div-text {
+        position: relative;
+        width: 90%;
+        left: 56px;
+        top: 53px;
+    }
+    
+    .section-div-text p:nth-child(1) {
+        font-size: 16px;
+    }
+    
+    .section-div-text h2 {
+        font-size: 35px;
+    }
+    
+    p.nth {
+        font-size: 18px;
+        text-align: left;
+        width: 80%;
+    }
+    
+    button.about-btn {
+        position: relative;
+        top: 100px;
+    }
+    .section-div-img {
+        position: relative;
+        width: 100%;
+        left: 0px;
+        top: 35px;
+    }
+    section#gallery {
+        width: 480px;
+        position: relative;
+    }
+    
+    .gallery-content {
+        width: 100%;
+        text-align: center;
+        left: 20px;
+        top: 20px;
+    }
+    
+    .gallery-blog {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    
+    .gallery-img {
+        width: 90%;
+        position: relative;
+        top: 20px;
+    }
+    .gallery-blog-one {
+        display: block;
+        position: relative;
+        top: 195px;
+    }
+    section#menu {
+        width: 480px;
+        position: relative;
+        top: 2008px;
+        left: -15px;
+    }
+    
+    .menu-txt-content {
+        width: 100%;
+        text-align: center;
+        left: 0;
+    }
+    
+    .menu-img-01 {
+        width: 90%;
+        left: 0;
+    }
+    
+    .menu-img-02 {
+        width: 90%;
+        left: 0;
+        top: 610px;
+    }
+}
+@media only screen and (max-width:480px){
+    section#blog {
+        width: 480px;
+        position: relative;
+        top: 2640px;
+    }
+    section#blog h1 {
+        font-size: 35px;
+        left: 113px;
+    }
+
+    .blg-txt-bx {
+        display: block;
+        position: relative;
+        top: -30px;
+        left: -35px
+    }
+    .blog-txt-blog-01{
+     display: block;
+     left: -30px;
+     top: 650px;
+    }
+    .blog-txt-blog-02{
+        display: block;
+        left: -30px;
+        top: 1340px;
+       }
+    .blog-content {
+        width: 90%;
+        margin: 35px 0px;
+    }
+    
+    .blog-img-content {
+        position: relative;
+        width: 100%;
+    }
+    
+    .blog-txt-content {
+        width: 100%;
+        font-size: 17px;
+        top: 158px;
+    }
+    
+    .blog-txt-item {
+        width: 100%;
+        top: 186px;
+    }
+
+    section#shop {
+        width: 480px;
+        position: relative;
+        top: 4800px;
+        left: -20px;
+    }
+    .shop-img {
+        width: 90%;
+        position: relative;
+    }
+    
+    .shop-content {
+        width: 100%;
+        top: 530px;
+        left: 0;
+    }
+    
+    p.shop-txt {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    h4.shoping-head {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+    .shop-list {
+        width: 90%;
+        left: 18px;
+    }
+    
+    .menulist-item {
+        width: 60%;
+    }
+    
+    .menulist-item h6 {
+        font-size: 18px;
+    }
+    
+    .menulist-item p {
+        font-size: 13px;
+        left: 34px;
+        position: relative;
+    }
+    
+    .width-arrow {
+        width: 100px;
+    }
+    
+    button#shop-btn {
+        position: relative;
+        left: 40px;
+        top: 10px;
+        font-size: 16px;
+        height: 30px;
+    }
+
+    
+    section#contact {
+        position: relative;
+        top: 5350px;
+        width: 480px;
+    }
+    .contact-list-content {
+        display: block;
+        position: relative;
+        top: -60px;
+    }
+    
+    .contact {
+        width: 100%;
+    }
+    
+    .contact h2 {
+        font-size: 40px;
+    }
+    
+    .contact h5 {
+        font-size: 16px;
+    }
+    .contact-img {
+        width: 100%;
+        position: relative;
+        top: -200px;
+    }
+    .contact-iconic-info {
+        top: 340px;
+        left: 30px;
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .resturant-hour {
+        top: 180px;
+        width: 50%;
+        left: 50px;
+    }
+    
+    .contact-form {
+        top: 310px;
+        left: 50px;
+    }
+    
+    input#submit {
+        left: 0;
+    }
+    
+    .res {
+        width: 100%;
+        position: relative;
+        top: -10px;
+    }
+    
+    .em {
+        width: 100%;
+        position: relative;
+        top: 10px;
+    }
+    
+    .call {
+        width: 100%;
+        top: 22px;
+    }
+}
